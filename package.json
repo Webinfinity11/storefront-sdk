@@ -21,8 +21,7 @@
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "check": "tsc --noEmit && vitest run",
-    "prepare": "tsc -p tsconfig.build.json"
+    "check": "tsc --noEmit && vitest run"
   },
   "devDependencies": {
     "typescript": "^5",
