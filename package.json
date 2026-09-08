@@ -1,0 +1,45 @@
+{
+  "name": "infinity-storefront-sdk",
+  "version": "0.1.0",
+  "description": "Typed client for the Infinity multi-store admin's public API",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "tsc --noEmit && vitest run",
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^4.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webinfinity11/storefront-sdk.git"
+  },
+  "keywords": [
+    "storefront",
+    "ecommerce",
+    "api-client",
+    "nextjs",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
