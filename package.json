@@ -37,8 +37,5 @@
     "api-client",
     "nextjs",
     "typescript"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }

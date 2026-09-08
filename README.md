@@ -6,8 +6,12 @@ ESM only, ships its own types.
 ## Install
 
 ```bash
-pnpm add infinity-storefront-sdk
+pnpm add github:Webinfinity11/storefront-sdk
 ```
+
+The package is distributed through its own public repository,
+[Webinfinity11/storefront-sdk](https://github.com/Webinfinity11/storefront-sdk),
+which carries a built `dist/` so a consumer compiles nothing.
 
 ## `.env.local`
 
